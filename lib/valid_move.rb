@@ -4,8 +4,6 @@ def valid_move?(board,index)
     false
   else
     true
-  else
-    nil
 end
 end
 

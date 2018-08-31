@@ -2,8 +2,10 @@
 def valid_move?(board,index)
   if board[index] == 0
     false
-  else
+  elsif board[index] == ""
     true
+  else
+    nil  
 end
 end
 
